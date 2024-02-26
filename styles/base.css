@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -13,11 +13,15 @@ body {
     margin: 0 auto;
     background-color: orange;
 }
-.main {
+.main { 
     display: flex;
     flex-flow: column;
     width: 100%;
 }
+.main .content h1{
+    text-align: center;
+}
+
 .menu {
     width: 100%;
     padding: 10px 20px 0px;
@@ -46,6 +50,83 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+.content table {
+    border-collapse: collapse;
+    width: 80%;
+    color: #34495e;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.content th, .content td {
+    padding: 15px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.content th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.content tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+.content tr:hover {
+    background-color: #bdc3c7;
+    cursor: pointer;
+}
+
+.content h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content form label {
+    font-weight: bold;
+}
+
+.content form input, .content form textarea {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.content form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+}
+
+.content form button[type="reset"] {
+    background-color: #e74c3c;
+}
+
+
+
+
+
+
 .footer {
     text-align: center;
     min-height: 150px;
