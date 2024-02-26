@@ -72,3 +72,21 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
 Bora pra cima!
+
+### Prints do projeto concluído:
+#### Home:
+![Home-1](/prints-do-site/01.PNG)
+![Home-2](/prints-do-site/02.PNG)
+
+### Sobre a clínica:
+![sobre-1](/prints-do-site/03.PNG)
+![sobre-2](/prints-do-site/04.PNG)
+
+### Horário de atendimento:
+![horario-1](/prints-do-site/05.PNG)
+![horario-2](/prints-do-site/06.PNG)
+
+### Contato:
+![contato-1](/prints-do-site/07.PNG)
+![contato-2](/prints-do-site/08.PNG)
+![contato-3](/prints-do-site/09.PNG)
